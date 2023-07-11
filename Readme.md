@@ -2,7 +2,7 @@
 ### Para el desarrollo se uso Twig
 
 ### Ejecucion de DB
-´´´
+```
 CREATE DATABASE megamedia;
 
 create table articles_type (
@@ -27,6 +27,4 @@ INSERT INTO articles_type(name, description) VALUES('Reportaje científico', 'Av
 INSERT INTO articles(name, description, type) VALUES('Reportaje en calle', 'Se realizó un reportaje a transeúnte en Av. Irarrazaval.', 1);
 INSERT INTO articles(name, description, type) VALUES('IAs', 'Se hace enfasis en la importancia de las IAs hoy en día.', 3);
 INSERT INTO articles(name, description, type) VALUES('Seguridad en el vecindario', 'Transeúnte describe la mejoria en el sector desde implementación de camaras.', 2);
-
-
-´´´
+```
