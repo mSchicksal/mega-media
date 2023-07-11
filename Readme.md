@@ -1,5 +1,5 @@
 # Prueba Tecnica para MegaMedia
-### Para el desarrollo se uso Twig
+### Para el desarrollo se uso Twig como motor plantilla PHP
 
 ### Ejecucion de DB
 ```
