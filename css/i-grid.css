@@ -1,0 +1,40 @@
+.i-red { border: 1px solid crimson; }
+/* CUSTOM CONTAINER SYSTEM */
+.i-container { width: 100%; max-width: 100%;}
+
+/* CUSTOM ROW SYSTEM */
+.i-row { width: 100%; display: flex; flex-wrap: wrap; }
+.i-row label { padding: 5px; margin-left: 10px; font-weight: bolder; }
+
+.i-center { justify-content: center; align-items: center; display: flex;}
+.i-left { justify-content: flex-start; align-items: center; display: flex; }
+.i-right { justify-content: end; align-items: center; display: flex; }
+
+/* CUSTOM COL SYSTEM */
+.i-col-1 { width: 8.33%; }
+.i-col-1 label{ padding: 5px; font-weight: bolder; }
+.i-col-1 span{ padding: 5px; font-weight: bolder !important; word-break: break-word; }
+.i-col-2 { width: 16.66%;}
+.i-col-2 label{ padding: 5px; font-weight: bolder; }
+.i-col-2 span{ padding: 5px; font-weight: bolder !important; word-break: break-word; }
+.i-col-3 { width: 25%; }
+.i-col-3 label{ padding: 5px; font-weight: bolder; }
+.i-col-3 span{ padding: 5px; font-weight: bolder !important; word-break: break-word; }
+.i-col-4 { width: 33.33% }
+.i-col-4 span{ padding: 5px; font-weight: bolder !important; word-break: break-word; }
+.i-col-5 { width: 41.66%; }
+.i-col-5 span{ padding: 5px; font-weight: bolder !important; word-break: break-word; }
+.i-col-6 { width: 50%; }
+.i-col-6 span{ padding: 5px; font-weight: bolder !important; word-break: break-word; }
+.i-col-7 { width: 58.33%; }
+.i-col-7 span{ padding: 5px; font-weight: bolder !important; word-break: break-word; }
+.i-col-8 { width: 66.66%; }
+.i-col-8 span{ padding: 5px; font-weight: bolder !important; word-break: break-word; }
+.i-col-9 { width: 75%; }
+.i-col-9 span{ padding: 5px; font-weight: bolder !important; word-break: break-word; }
+.i-col-10 { width: 83.33%; }
+.i-col-10 span{ padding: 5px; font-weight: bolder !important; word-break: break-word; }
+.i-col-11 { width: 91.66%; }
+.i-col-11 span{ padding: 5px; font-weight: bolder !important; word-break: break-word; }
+.i-col-12 { width: 100%; }
+.i-col-12 span{ padding: 5px; font-weight: bolder !important; word-break: break-word; }
