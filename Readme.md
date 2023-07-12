@@ -5,8 +5,6 @@ Se levanto una DB local para este proyecto, los parametros de conexion de esta s
 1-. Base de datos local mysql.
 2-. Php instalado de manera local.
 3-. Composer instalado.
-4-. Borrar carpeta /vendor/composer
-5-. Borrar autoload.php
 ```
 composer install
 ```
