@@ -1,11 +1,21 @@
 # Prueba Tecnica para MegaMedia
-### Para el desarrollo se uso Twig como motor plantilla PHP
+Para el desarrollo se uso Twig como motor plantilla PHP
+Para la creacion de la base de datos temporal MYSQL se uso [XAMPP](https://www.apachefriends.org/es/index.html),
+los parametros de conexion de esta se configuran en el archivo "config.php"
+
+### Ejecucipon del proyecto (En una terminal ubicado en la carpeta raiz del proyecto)
+```
+php -S localhost:9000
+```
 
 ### Ejecucion de DB
+
 ```
 CREATE DATABASE megamedia;
 
-create table articles_type (
+USE megamedia;
+
+CREATE TABLE articles_type (
     id int auto_increment primary key,
     name varchar(100) not null comment 'Nombre correspondiente al tipo de articulo',
     description varchar(400) comment 'Descripcion correspondiente del tipo de articulo',
