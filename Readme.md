@@ -1,6 +1,9 @@
 # Prueba Tecnica para MegaMedia
 Para el desarrollo se uso Twig como motor plantilla PHP.
 Se levanto una DB local para este proyecto, los parametros de conexion de esta se configuran en el archivo "config.php".
+### Recomendación para BD
+Instalar ultima version de [XAMPP](https://www.apachefriends.org/es/index.html)
+y levantar Apache con Mysql para creacion de datatabase, tablas e inserts.
 ### Requerimientos para ejecucion correcta del proyecto
 1-. Base de datos local mysql.
 2-. Php instalado de manera local.
