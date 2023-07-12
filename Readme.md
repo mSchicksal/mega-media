@@ -1,14 +1,13 @@
 # Prueba Tecnica para MegaMedia
-Para el desarrollo se uso Twig como motor plantilla PHP
-Para la creacion de la base de datos temporal MYSQL se uso [XAMPP](https://www.apachefriends.org/es/index.html),
-los parametros de conexion de esta se configuran en el archivo "config.php"
+Para el desarrollo se uso Twig como motor plantilla PHP.
+Se levanto una DB local para este proyecto, los parametros de conexion de esta se configuran en el archivo "config.php".
 
-### Ejecucipon del proyecto (En una terminal ubicado en la carpeta raiz del proyecto)
+### Ejecución del proyecto (En una terminal ubicado en la carpeta raiz del proyecto)
 ```
 php -S localhost:9000
 ```
 
-### Ejecucion de DB
+### Ejecución de DB
 
 ```
 CREATE DATABASE megamedia;
@@ -34,6 +33,7 @@ CREATE TABLE articles(
 INSERT INTO articles_type(name, description) VALUES('Reportaje', 'Reportaje normal');
 INSERT INTO articles_type(name, description) VALUES('Reportaje narrativo', 'Recuento narrativo de eventos');
 INSERT INTO articles_type(name, description) VALUES('Reportaje científico', 'Avances y descubrimientos cientificos mas recientes');
+
 INSERT INTO articles(name, description, type) VALUES('Reportaje en calle', 'Se realizó un reportaje a transeúnte en Av. Irarrazaval.', 1);
 INSERT INTO articles(name, description, type) VALUES('IAs', 'Se hace enfasis en la importancia de las IAs hoy en día.', 3);
 INSERT INTO articles(name, description, type) VALUES('Seguridad en el vecindario', 'Transeúnte describe la mejoria en el sector desde implementación de camaras.', 2);
