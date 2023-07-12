@@ -2,7 +2,7 @@
 Para el desarrollo se uso Twig como motor plantilla PHP.
 Se levanto una DB local para este proyecto, los parametros de conexion de esta se configuran en el archivo "config.php".
 
-### Ejecución del proyecto (En una terminal ubicado en la carpeta raiz del proyecto)
+### Ejecución del proyecto (En una terminal ubicado en la carpeta raiz del proyecto, y tener instalado PHP en el SO)
 ```
 php -S localhost:9000
 ```
