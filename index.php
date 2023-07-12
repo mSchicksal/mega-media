@@ -8,6 +8,10 @@ $twig = new Environment($loader);
 
 require_once('config.php');
 require_once('daos.php');
-
-$articles = Daos::getArticles();
+$articles = [];
+try {
+    $articles = Daos::getArticles();
+} catch (Exception $e) {
+    // Do nothing
+}
 echo $twig->render('index.twig', [ 'articles' => $articles]);

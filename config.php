@@ -13,7 +13,6 @@ class DB {
             return $connection;
         } catch (PDOExecption $e) {
             echo "Connection failed: {$e->getMessage()}";
-
         }
     }
 }
