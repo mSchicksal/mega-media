@@ -5,10 +5,14 @@ Se levanto una DB local para este proyecto, los parametros de conexion de esta s
 1-. Base de datos local mysql.
 2-. Php instalado de manera local.
 3-. Composer instalado.
-    De ser necesario instalar twig
-    ```
-    composer require "twig/twig:^3.0"
-    ```
+4-. Borrar carpeta /vendor/composer
+5-. Borrar autoload.php
+```
+composer install
+```
+```
+composer update
+```
 ### Ejecución del proyecto (En una terminal ubicado en la carpeta raiz del proyecto, y tener instalado PHP en el SO)
 ```
 php -S localhost:9000

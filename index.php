@@ -1,9 +1,9 @@
 <?php
-require __DIR__ . '/vendor/autoload.php';
+require  './vendor/autoload.php';
 use Twig\Environment;
 use Twig\Loader\FilesystemLoader;
 
-$loader = new FilesystemLoader(__DIR__ . '/views');
+$loader = new FilesystemLoader('./views');
 $twig = new Environment($loader);
 
 require_once('config.php');
